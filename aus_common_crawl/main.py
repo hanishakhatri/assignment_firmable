@@ -11,9 +11,9 @@ from utils import (
 )
 
 def main():
-    print("🔍 Starting extraction of Australian company websites...")
+    print(" Starting extraction of Australian company websites...")
     company_records = extract_au_domains()
-    print(f"🔢 Found {len(company_records)} company groups")
+    print(f" Found {len(company_records)} company groups")
 
     seen_domains = set()
     output = []
